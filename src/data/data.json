@@ -1,0 +1,13 @@
+{
+   "projectName": "Project Name",
+   "projectDescription": "Bu web sitesi Penta Yazılım tarafından kodlanmıştır.",
+   "projectKeywords": "penta, penta yazılım",
+   "projectAuthor": "Penta Yazılım",
+   
+   "menuExample": [
+      {
+         "link": "index.php",
+         "name": "Title"
+      }
+   ]
+}

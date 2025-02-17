@@ -1,0 +1,19 @@
+{
+   "trailingComma": "all",
+   "tabWidth": 3,
+   "semi": false,
+   "singleQuote": true,
+   "printWidth": 10000,
+   "useTabs": false,
+   "bracketSpacing": true,
+   "endOfLine": "lf",
+   "arrowParens": "always",
+   "overrides": [
+      {
+         "files": "**/*.hbs",
+         "options": {
+            "parser": "angular"
+         }
+      }
+   ]
+}

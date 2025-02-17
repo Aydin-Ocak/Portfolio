@@ -1,0 +1,27 @@
+{{> "layout/head.hbs"}}
+
+<header class="header-field block z-80 fixed w-full left-0 top-[30px] duration-450 group/header smart-menu">
+   <div class="navigation container mx-auto max-w-[1280px] px-[16px] h-[80px] rounded-[80px] w-full bg-smokeWhite shadow-md flex items-center group/nav">
+      <a href="index.html" class="shrink-0 rounded-full bg-primaryLight size-[60px] flex justify-center items-center">
+         <span class="text-light text-[36px] font-medium">A</span>
+      </a>
+      <div class="px-[30px]">
+         <ul class="flex items-center gap-[30px] md:gap-[20px] text-[24px] leading-[155%] text-basicBlack font-medium md:absolute md:right-[20px] md:opacity-0 md:pointer-events-none group-[&.active]/nav:opacity-100 group-[&.active]/nav:pointer-events-none duration-450 md:top-[100px] rounded-[12px] md:flex-col md:bg-smokeWhite md:p-[24px]">
+            <li class="hover:translate-y-[-2px] duration-300 group/item md:bg-light md:p-[10px] md:px-[30px] rounded-[6px] w-full text-center"><a href="#" class="min-sm:hover:text-primaryDark transition-all duration-300">About</a></li>
+            <li class="hover:translate-y-[-2px] duration-300 group/item md:bg-light md:p-[10px] md:px-[30px] rounded-[6px] w-full text-center"><a href="#" class="min-sm:hover:text-primaryDark duration-300">Works</a></li>
+            <div class="h-[32px] w-[3px] mx-[20px] rounded-full bg-light md:hidden"></div>
+            <li class="hover:translate-y-[-2px] duration-300 group/item md:bg-light md:p-[10px] md:px-[30px] rounded-[6px] w-full text-center"><a href="#" class="min-sm:hover:text-primaryDark duration-300">Github</a></li>
+            <li class="hover:translate-y-[-2px] duration-300 group/item md:bg-light md:p-[10px] md:px-[30px] rounded-[6px] w-full text-center"><a href="#" class="min-sm:hover:text-primaryDark duration-300">Linkedin</a></li>
+            <li class="hover:translate-y-[-2px] duration-300 group/item md:bg-light md:p-[10px] md:px-[30px] rounded-[6px] w-full text-center"><a href="#" class="min-sm:hover:text-primaryDark duration-300">İnstagram</a></li>
+         </ul>
+      </div>
+      <a href="#" class="px-[32px] h-[60px] rounded-[80px] bg-primaryLight ml-auto flex items-center justify-center md:hidden"><span class="text-light text-[20px] font-medium">Pricing ~ it's Free</span></a>
+      <div class="menuButton shrink-0 group/menu rounded-full bg-primaryLight size-[60px] flex flex-col justify-center items-center min-md:hidden ml-auto relative group-[&.active]/nav:rotate-90 duration-600">
+         <div class="h-[3px] w-[30px] bg-light rounded-full absolute group-[&.active]/nav:top-1/2 group-[&.active]/nav:rotate-45 top-[calc(50%-8px)] duration-600"></div>
+         <div class="h-[3px] w-[30px] bg-light rounded-full absolute group-[&.active]/nav:translate-x-5 group-[&.active]/nav:opacity-0 top-1/2 duration-600"></div>
+         <div class="h-[3px] w-[30px] bg-light rounded-full absolute group-[&.active]/nav:top-1/2 group-[&.active]/nav:-rotate-45 top-[calc(50%+8px)] duration-600"></div>
+      </div>
+   </div>
+</header>
+
+<penta-yazilim class="block"> </penta-yazilim>
